@@ -2,32 +2,123 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: "Work Sans", sans-serif;
+  /* font-family: "EB Garamond", serif; */
+  font-family: "Poppins", sans-serif;
+  line-height: 1.8;
+  color: #5a5a5a;
+}
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --primary: #f38f2d;
+  --secondary: #009ed6;
+  --text: #183754;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+a {
+  color: var(--primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "EB Garamond", serif;
+  color: var(--text);
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 46px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 34px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+span {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #1a1a1a;
+}
+
+button {
+  font-family: "Work Sans", sans-serif;
+  padding: 12px 32px;
+  border: solid 0px transparent;
+  border-radius: 999px;
+  font-size: 15px;
+  line-height: 1;
+  width: fit-content;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  font-weight: 500;
+  border: solid 1px #1a1a1a;
+
+  transition: all;
+  transition-duration: 200ms;
+}
+
+button:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 32px;
   }
-}
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+  h2 {
+    font-size: 32px;
+  }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
   }
 }
