@@ -1,5 +1,6 @@
 import AboutSection from "@/sections/AboutSection";
 import EnjoySection from "@/sections/EnjoySection";
+import PlacesOfInterest from "@/sections/PlacesOfInterest";
 import RoomsSection from "@/sections/RoomsSection";
 import React from "react";
 
@@ -13,6 +14,8 @@ export default function Home(): JSX.Element {
       <EnjoySection />
       <AboutSection />
       <RoomsSection />
+      <div className="py-10"></div>
+      <PlacesOfInterest />
     </>
   );
 }
