@@ -5,7 +5,7 @@ const Room = (): JSX.Element => {
   return (
     <>
       <div className="p-5 md:w-1/2">
-        <div className="relative h-96 w-full overflow-hidden rounded-2xl">
+        <div className="relative h-60 w-full overflow-hidden rounded-2xl md:h-96">
           <Image
             src={"/images/sns-room.jpg"}
             className="transition-all duration-300 hover:scale-110"

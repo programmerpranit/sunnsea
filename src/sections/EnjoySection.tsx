@@ -5,7 +5,7 @@ const EnjoySection = (): JSX.Element => {
   return (
     <>
       <div className="mx-auto my-20 flex max-w-7xl  flex-col md:flex-row">
-        <div className="w-2/3 p-5">
+        <div className="p-5 md:w-2/3">
           <Image
             width={700}
             height={700}
@@ -14,7 +14,7 @@ const EnjoySection = (): JSX.Element => {
             alt=""
           />
         </div>
-        <div className="w-1/3 p-5">
+        <div className="p-5 md:w-1/3">
           <h2>Enjoy Vacations at SunNSea</h2>
           <p className="mb-10 mt-5 ">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum

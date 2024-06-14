@@ -17,8 +17,8 @@ const Navbar = (): JSX.Element => {
 
   return (
     <>
-      <nav className="flex flex-col justify-evenly  md:flex-row">
-        <div className="logo flex h-32 items-center justify-between  p-5  max-md:border-b">
+      <nav className="flex w-screen flex-col justify-evenly overflow-hidden md:flex-row">
+        <div className="logo flex h-32 items-center justify-between p-5  max-md:border-b">
           <Link href={"/"}>
             <Image
               className="object-contain"
