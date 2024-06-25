@@ -79,7 +79,7 @@ const Navbar = (): JSX.Element => {
               Contact
             </p>
           </Link>
-          <Link href="/contact">
+          <Link href="https://sunnseaholidaysllp.bookingjini.com/property">
             <button>Book Now</button>
           </Link>
         </div>

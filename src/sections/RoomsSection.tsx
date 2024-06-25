@@ -4,7 +4,7 @@ import React from "react";
 const RoomsSection = (): JSX.Element => {
   return (
     <>
-      <div className="mx-auto mt-40 max-w-7xl">
+      <div className="mx-auto mt-20 max-w-7xl">
         <h2 className="my-10 text-center">Stay With Us</h2>
         <div className="flex flex-wrap">
           <Room />

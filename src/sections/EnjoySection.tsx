@@ -4,8 +4,8 @@ import React from "react";
 const EnjoySection = (): JSX.Element => {
   return (
     <>
-      <div className="mx-auto my-20 flex max-w-7xl  flex-col md:flex-row">
-        <div className="p-5 md:w-2/3">
+      <div className="mx-auto my-20 flex max-w-7xl flex-col  items-center md:flex-row">
+        <div data-aos="fade-right" className="p-5 md:w-1/2">
           <Image
             width={700}
             height={700}
@@ -14,13 +14,16 @@ const EnjoySection = (): JSX.Element => {
             alt=""
           />
         </div>
-        <div className="p-5 md:w-1/3">
+        <div data-aos="fade-left" className="p-5 md:w-1/2">
           <h2>Enjoy Vacations at SunNSea</h2>
           <p className="mb-10 mt-5 ">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-            enim tenetur doloribus voluptatibus quia minus saepe, doloremque
-            fuga aspernatur rem atque? Reiciendis natus corporis asperiores
-            nesciunt consequatur laborum nobis
+            A Suvarna temple dedicated to Lord Ganesha is another prime
+            attraction of the region With very close proximity from pune and
+            Mumbai, we are easily accessible and definitely worth the travel.
+            With beautiful rooms we also have a pleasant swimming pool for all
+            the after parties along with rain dance, a Business Conclave,
+            Conference and also a E- golf cart service for sightseeing. Perfect
+            Destination for Birthday Party Weddings Events & Corportate Events.
           </p>
           <button>Read More</button>
         </div>

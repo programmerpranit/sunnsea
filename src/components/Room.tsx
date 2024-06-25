@@ -4,7 +4,7 @@ import React from "react";
 const Room = (): JSX.Element => {
   return (
     <>
-      <div className="p-5 md:w-1/2">
+      <div data-aos="zoom-in-up" className="p-5 md:w-1/2">
         <div className="relative h-60 w-full overflow-hidden rounded-2xl md:h-96">
           <Image
             src={"/images/sns-room.jpg"}
@@ -19,7 +19,9 @@ const Room = (): JSX.Element => {
           required in a modern hotel, with 24*7 WIFI, television, all major
           toiletries, and also an electric kettle.
         </p>
-        <button>Book Now</button>
+        <a href="https://sunnseaholidaysllp.bookingjini.com/property">
+          <button>Book Now</button>
+        </a>
       </div>
     </>
   );

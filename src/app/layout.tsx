@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import React from "react";
+import AosAnimation from "./AosAnimation";
 
 export const metadata: Metadata = {
   title: "Sun N Sea Holidays LLP",
@@ -30,6 +31,7 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar />
+        <AosAnimation />
         {children}
       </body>
     </html>
